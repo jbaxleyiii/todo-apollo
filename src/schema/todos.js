@@ -29,8 +29,6 @@ export default {
       const id = `TodoItem:${variables.id}`;
       const fragment = gql`
         fragment completeTodo on TodoItem {
-          __typename
-          id
           completed
         }
       `;
